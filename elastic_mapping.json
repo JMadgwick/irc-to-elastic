@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "properties": {
+      "date":    { "type": "date" },
+      "user":    { "type": "keyword" },
+      "msg":  { "type": "text"  },
+      "join":   { "type": "keyword"  },
+      "info":   { "type": "keyword"  },
+      "quit":   { "type": "keyword"  },
+      "reason":   { "type": "text"  },
+      "oldnick":   { "type": "keyword"  },
+      "newnick":   { "type": "keyword"  },
+      "source":   { "type": "keyword"  },
+      "modes":   { "type": "text"  },
+      "target":   { "type": "keyword"  },
+      "part":   { "type": "keyword"  },
+      "extra":   { "type": "keyword"  },
+      "emote":   { "type": "keyword"  },
+      "server":   { "type": "keyword"  }
+    }
+  }
+}
